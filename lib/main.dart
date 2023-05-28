@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:bmi_calculator/constants/screens/home.dart';
 import 'package:flutter/material.dart';
-import 'package:bmi_calculator/main.dart';
+
 
 void main() {
   runApp(MyApp());
