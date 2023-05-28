@@ -87,11 +87,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   _h = _h / 100;
                   _bmiResult = _w / (_h * _h);
                   if (_bmiResult > 25) {
-                    _textResult = "You are Over Weight";
+                    _textResult = "You are Overweight";
                   } else if (_bmiResult >= 18.5 && _bmiResult <= 25) {
-                    _textResult = "You are Fit and Normal";
+                    _textResult = "You are Normal 🧘🏻";
                   } else {
-                    _textResult = "You are Underweight";
+                    _textResult = "You are Underweight ";
                   }
                 });
               },
